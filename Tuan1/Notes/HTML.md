@@ -26,3 +26,13 @@
 - input: form nhập dữ liệu, type: checkbox, radio
 - button: nút
 - div: khối bao quanh các phần tử khác
+
+# Attribute trong HTML
+
+Thuộc tính, ví dụ trong h1 có title, nằm trong thẻ mở
+
+# Quản lý thư mục
+
+- Đặt tên chung convention
+- Tạo folder nhanh /uploads/folder1
+- Tắt file không cần thiết -> tăng năng suốt làm việc
