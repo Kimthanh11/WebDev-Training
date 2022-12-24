@@ -25,3 +25,5 @@
 # Shorthand cho background
 
 Đọc MDN để biết rõ cách dùng
+
+- Thuộc tính background-size thêm dấu gạch chéo ở trước
