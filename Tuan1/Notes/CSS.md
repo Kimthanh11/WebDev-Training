@@ -88,4 +88,4 @@ element giả
 ::after
 ::first-letter: chữ đầu viết
 ::first-line: dòng đầu tiên
-::selection:
+::selection: khi select elements
