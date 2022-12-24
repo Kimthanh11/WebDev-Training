@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: #ebebeb;
+    padding: 16px;
+    /* padding: 16px 16px 16px 16px; */
+}
