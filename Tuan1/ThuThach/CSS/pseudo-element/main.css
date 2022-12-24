@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+}
+.container::after {
+    content:"";
+    display: block;
+    background-color: yellow;
+    width: 150px;
+    height: 100px;
+};

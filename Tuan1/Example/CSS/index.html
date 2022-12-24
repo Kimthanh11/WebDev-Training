@@ -6,24 +6,69 @@
     <title>F8 - Shop</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../CSS/main.css" />
-    <!-- <style>
-      h1 {
-        color: red;
+    <style>
+      html {
         font-size: 20px;
       }
-    </style> -->
+      .box {
+        /* width: 100px; */
+        /* width: 50%; */
+        font-size: 2rem;
+        width: 50vw;
+        height: calc(120px - 20px);
+        background-color: red;
+      }
+      a::after {
+        content: " (" attr(href) ")";
+      }
+      .box::after {
+        content: attr(data-title);
+      }
+
+      .box:hover {
+        background-color: blue;
+      }
+      .box1::before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+      }
+
+      .box1::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+      }
+
+      h1::first-line {
+        font-size: 40px;
+      }
+      h1::selection {
+        background-color: violet;
+      }
+    </style>
   </head>
 
   <!--  Phần thân -->
   <body>
-    <h1 style="color: red">CSS in HTML?</h1>
+    <h1>
+      CSS in HTML? <br />
+      hello
+    </h1>
     <ol>
       <li>Internal</li>
       <li>External</li>
       <li>Inline</li>
     </ol>
+    <div class="box" data-title="Đây là box màu hồng"></div>
 
-    <h1 id="first-heading">CSS selectors?</h1>
+    <div class="box1" data-title="Đây là box màu hồng"></div>
+    <a href="google.com">Vào trang</a>
+    <h1 id="first-heading" class="sample">CSS selectors?</h1>
     <h1 class="second-heading">CSS selectors?</h1>
     <h1 class="second-heading">CSS selectors?</h1>
     <h2>ID & CLASS</h2>

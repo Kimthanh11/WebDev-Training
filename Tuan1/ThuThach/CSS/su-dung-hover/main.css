@@ -1,0 +1,15 @@
+.button {
+    /* Thêm phần đệm, cho nút dày lên */
+    /* Chương sau sẽ học chi tiết về padding */
+    padding: 8px 16px;
+
+    color: #fff;
+    background-color: #f05123;
+
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(240,81, 35,0.8);
+}

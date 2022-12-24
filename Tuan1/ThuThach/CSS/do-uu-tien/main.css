@@ -1,0 +1,12 @@
+/*
+Làm bài tập tại đây!
+
+Gợi ý, đây là một số cách kết hợp ID, CSS, Tag name để select:
+    - tagName.class
+    - tagName#id
+    - #id.class
+    - .class#id
+*/
+#heading.title-group {
+    color:#333;
+}

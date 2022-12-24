@@ -1,12 +1,32 @@
+:root {
+    --text-color: green;
+}
 h1 {
-    color: red;
+    color: var(--text-color);
     font-size: 20px;
   }
 
+#first-heading.sample {
+    color:violet;
+}
+
 #first-heading {
-    color:red;
+    color:blue;
 }
 
 .second-heading {
     color:green;
 }
+
+.second-heading {
+    color:aquamarine !important;
+}
+
+/* html {
+    color:yellow;
+} */
+/* 
+* {
+    color:red;
+} */
+
