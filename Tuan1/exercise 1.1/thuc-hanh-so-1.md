@@ -37,3 +37,11 @@ Những thành phần thường gặp trên giao diện website:
 ONE PAGE: dùng là trang giới thiệu
 
 # Tạo project base
+
+# letter-spacing
+
+seperate between letters
+
+# text-align: justify
+
+can deu hai ben
