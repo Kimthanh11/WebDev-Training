@@ -45,3 +45,15 @@ seperate between letters
 # text-align: justify
 
 can deu hai ben
+
+# Select letter in different lines
+
+- Choose identify words differ from other
+- ctr+d to the end of word you liked
+- alt+shift+arrow right
+- ctr+c
+- ctr+v
+
+# Cursor in multiple words
+
+alt + select
