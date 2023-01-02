@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>w3_band</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>The band</title>
+    <link rel="icon" href="./assets/img/band/member1.jpg" type="image" sizes="16x16">
+    <link rel="stylesheet" href="assets/css/style.css"/>
     <link rel="stylesheet" href="assets/img/themify-icons/themify-icons.css" />
   </head>
   <body>
@@ -13,19 +14,19 @@
       <div id="header">
         <!-- Begin : Nav -->
         <ul id="nav">
-          <li><a href="">Home</a></li>
-          <li><a href="">Band</a></li>
-          <li><a href="">Tour</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#band">Band</a></li>
+          <li><a href="#tour">Tour</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
             <a href="#">
               More
               <i class="nav-arrow-down ti-angle-down"></i>
             </a>
             <ul class="subnav">
-              <li><a href="">Merchandise</a></li>
-              <li><a href="">Extras</a></li>
-              <li><a href="">Media</a></li>
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li>
             </ul>
           </li>
         </ul>
@@ -49,7 +50,7 @@
 
       <div id="content">
         <!-- About section -->
-        <div class="content-section">
+        <div class="content-section" id="band">
           <h2 class="section-heading">THE BAND</h2>
           <p class="section-subheading">We love music</p>
           <p class="about-content">
@@ -78,14 +79,11 @@
               <p class="member-name">Name</p>
               <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
             </div>
-            <div class="clear">
-
-            </div>
           </div>
         </div>
 
         <!-- Tour section -->
-        <div class="tour-section">
+        <div class="tour-section" id="tour">
           <div class="content-section ">
             <h2 class="section-heading text-white">TOUR DATES</h2>
             <p class="section-subheading text-white">Remember to book your tickets!</p>
@@ -103,7 +101,7 @@
                   <h3 class="place-heading">New York</h3>
                   <p class="place-time">Fri 27 Nov 2016</p>
                   <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                  <a href="#" class="btn">Buy Tickets</a>
                 </div>
               </div>
 
@@ -113,7 +111,7 @@
                   <h3 class="place-heading">Paris</h3>
                   <p class="place-time">Sat 28 Nov 2016</p>
                   <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                  <a href="#" class="btn">Buy Tickets</a>
                 </div>
               </div>
               
@@ -123,25 +121,62 @@
                   <h3 class="place-heading">San Francisco</h3>
                   <p class="place-time">Sun 29 Nov 2016</p>
                   <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                  <a href="#" class="btn">Buy Tickets</a>
                 </div>
               </div>
-
-              <div class="clear"></div>
               
             </div>
         </div>
 
         </div>
 
-    <!-- Contact section -->
-      <div class="content-section">
+    <!-- Begin : Contact section -->
+      <div class="content-section" id="contact">
         <h2 class="section-heading">CONTACT</h2>
         <p class="section-subheading">Fan? Drop a note!</p>
 
+        <div class="row contact-content">
+          <div class="col col-half contact-info">
+            <p><i class="ti-location-pin"></i>Chicago, US</p>
+            <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+            <p><i class="ti-email"></i>Email: mail@mail.com</p>
+          </div>
+          <div class="col col-half contact-form">
+            <form action="">
+              <div class="row">
+                <div class="col col-half">
+                  <input type="text" required placeholder="Name" name="" id="" class="form-control">
+                </div>
+                <div class="col col-half">
+                  <input type="email" required placeholder="Email" name="" id="" class="form-control">
+                </div>
+              </div>
+              <div class="row mt-8">
+                <div class="col col-full">
+                  <input type="text" required placeholder="Message" name="" id="" class="form-control">
+                </div>
+              </div>
+              <input type="submit" value="SEND" class="mt-16 btn pull-right">
+            </form>
+          </div>
+        </div>
       </div>
-
-      <div id="footer"></div>
+      <!-- End : Contact section -->
+      <div class="map-section">
+        <img src="./assets/img/map.jpg" alt="Map">
+      </div>
+      
+      <div id="footer">
+        <div class="socials-list">
+          <a href="" class="ti-facebook"><i></i></a>
+          <a href="" class="ti-instagram"><i></i></a>
+          <a href="" class="ti-youtube"><i></i></a>
+          <a href="" class="ti-pinterest"><i></i></a>
+          <a href="" class="ti-twitter"><i></i></a>
+          <a href="" class="ti-likedin"><i></i></a>
+        </div>
+        <p class="copyrights">Powered by <a href="w3.css">w3.css</a></p>
+      </div>
     </div>
   </body>
 </html>

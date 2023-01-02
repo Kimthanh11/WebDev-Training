@@ -57,3 +57,7 @@ can deu hai ben
 # Cursor in multiple words
 
 alt + select
+
+# Grid system
+
+- creat layout for web to make the code more clear and easy to reuse

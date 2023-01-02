@@ -7,6 +7,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-family:  Arial, Helvetica, sans-serif;
 }
 /* 
@@ -22,9 +23,6 @@ html {
  */
 
  /* Common */
-.clear {
-    clear: both;
-}
 
 .text-white {
     color: #fff !important;
@@ -35,10 +33,20 @@ html {
     margin-right: -8px;
 }
 
+.row::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
 .col {
     float: left;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.col-full {
+    width: 100%;
 }
 
 .col-half {
@@ -46,11 +54,39 @@ html {
 }
 
 .col-third {
-    width: 33.3333%
+    width: 33.3333%;
 }
 
 .text-center {
     text-align: center !important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    }
+    
+.btn:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+    }
+
+.pull-right {
+    float: right !important;
 }
 /* CSS */
 
@@ -177,7 +213,7 @@ html {
 }
 
 #content .content-section {
-    padding: 64px 0;
+    padding: 64px 0 112px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -265,7 +301,6 @@ margin-top: -3px;
 
 .places-list {
     margin-top: 32px;
-    margin-bottom: 48px;
     padding-bottom: 48px;
 }
 
@@ -296,19 +331,62 @@ color:#757575;
 margin-top: 15px;
 line-height: 1.4;
 }
-.place-buy-btn {
-background-color: #000;
-color: #fff;
-text-decoration: none;
-padding: 11px 16px;
-display: inline-block;
-margin-top: 15px;
+
+
+/* Contact form */
+.contact-content {
+    padding: 48px;
 }
 
-.place-buy-btn:hover {
-color: #000;
-background-color: #ccc;
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
 }
+
+.contact-info p i {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Map section */
+.map-section img {
+    width: 100%;
+}
+
 #footer {
+padding: 64px 16px;
+text-align: center;
+}
 
+#footer .socials-list {
+font-size: 24px;
+}
+
+#footer .socials-list a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.6);
+}
+
+#footer .copyrights  a:hover,
+#footer .socials-list a:hover {
+    color:rgba(0,0,0,0.4);
+}
+
+#footer .copyrights {
+    margin-top: 15px;
+    color:rgba(0,0,0,0.6);
+}
+
+#footer .copyrights  a {
+    color:rgba(0,0,0,0.6);
 }
