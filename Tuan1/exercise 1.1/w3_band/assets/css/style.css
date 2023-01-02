@@ -20,6 +20,8 @@ html {
 3. Màu sắc
 4. Kiểu dáng (kiểu chữ, hình tròn, vuông...)
  */
+
+ /* Common */
 .clear {
     clear: both;
 }
@@ -27,6 +29,30 @@ html {
 .text-white {
     color: #fff !important;
 }
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.3333%
+}
+
+.text-center {
+    text-align: center !important;
+}
+/* CSS */
 
  #main {
 
@@ -186,8 +212,6 @@ html {
 }
 
 #content .member-item {
-    float: left;
-    width: 33.3%;
     text-align: center;
 }
 
@@ -240,14 +264,9 @@ margin-top: -3px;
 }
 
 .places-list {
-    margin: 32px -8px 0;
+    margin-top: 32px;
+    margin-bottom: 48px;
     padding-bottom: 48px;
-}
-
-.place-item {
-    float:left;
-    width: 33.3333%;
-    padding: 0 8px;
 }
 
 .place-img {
